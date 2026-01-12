@@ -55,6 +55,11 @@ export default function GalleryWindow() {
         </menu>
 
             <article role="tabpanel" hidden={selectedTab !== 'art'}>
+              <h2 className='tabHeader'>2025</h2>
+              <hr/>
+              <div id="2025" className='flexContainerRow galleryYear'>
+              {populateArt(2025)}
+              </div>
               <h2 className='tabHeader'>2024</h2>
               <hr/>
               <div id="2024" className='flexContainerRow galleryYear'>

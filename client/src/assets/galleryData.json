@@ -1,5 +1,81 @@
 [
-    
+    {
+        "id": "november2025",
+        "artURL": "art/2025/november2025.png",
+        "thumbURL": "art/2025/thumbnails/november2025.png",
+        "year": 2025,
+        "nsfw": false
+    },
+    {
+        "id": "april2025",
+        "artURL": "art/2025/april2025.png",
+        "thumbURL": "art/2025/thumbnails/april2025.png",
+        "year": 2025,
+        "nsfw": false
+    },
+    {
+        "id": "august2025-a",
+        "artURL": "art/2025/august2025-a.png",
+        "thumbURL": "art/2025/thumbnails/august2025-a.png",
+        "year": 2025,
+        "nsfw": false
+    },
+    {
+        "id": "comicjam2025",
+        "artURL": "art/2025/comicjam2025.png",
+        "thumbURL": "art/2025/thumbnails/comicjam2025.png",
+        "year": 2025,
+        "nsfw": false
+    },
+    {
+        "id": "explosion",
+        "artURL": "art/2025/explosion.png",
+        "thumbURL": "art/2025/thumbnails/explosion.png",
+        "year": 2025,
+        "nsfw": false
+    },
+    {
+        "id": "husk",
+        "artURL": "art/2025/husk.png",
+        "thumbURL": "art/2025/thumbnails/husk.png",
+        "year": 2025,
+        "nsfw": false
+    },
+    {
+        "id": "jan2025",
+        "artURL": "art/2025/jan2025.png",
+        "thumbURL": "art/2025/thumbnails/jan2025.png",
+        "year": 2025,
+        "nsfw": false
+    },
+    {
+        "id": "june2025",
+        "artURL": "art/2025/june2025.png",
+        "thumbURL": "art/2025/thumbnails/june2025.png",
+        "year": 2025,
+        "nsfw": false
+    },
+    {
+        "id": "may2025",
+        "artURL": "art/2025/may2025.png",
+        "thumbURL": "art/2025/thumbnails/may2025.png",
+        "year": 2025,
+        "nsfw": false
+    },
+    {
+        "id": "torch",
+        "artURL": "art/2025/torch.png",
+        "thumbURL": "art/2025/thumbnails/torch.png",
+        "year": 2025,
+        "nsfw": false
+    },
+    {
+        "id": "morecraft",
+        "artURL": "art/2024/morecraft.png",
+        "thumbURL": "art/2024/thumbnails/morecraft.png",
+        "year": 2024,
+        "nsfw": false
+    },
     {
         "id": "newpfp",
         "artURL": "art/2024/newpfp.png",
