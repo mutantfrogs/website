@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import Splashtext from './Splashtext.jsx';
 
 export default function Header() {
 
@@ -32,8 +33,9 @@ export default function Header() {
   };
 
   return (
-    <div className='flexContainerRow' style={{ marginTop: '15px' }}>
-      <div className='window' style={{ width: 650 }}>
+    <div className='flexContainerRow' style={{  marginTop: '15px' }}>
+      <div className='window' style={{ position: 'relative', width: 650 }}>
+        <Splashtext/>
         <div className="title-bar">
           <div className="title-bar-text">🐸 welcome to my website!</div>
             <div className="title-bar-controls">

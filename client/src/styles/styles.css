@@ -87,6 +87,24 @@ body{
     margin-bottom: 30px;
 }
 
+.splashtext{
+    transform: rotate(-15deg);
+    color: #ffff00;
+    text-shadow: 2px 2px #5c5c00;
+    z-index: 500;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    animation: splashtextAnimation 2s infinite ease-in-out;
+}
+
+@keyframes splashtextAnimation {
+    0% { transform: rotate(-15deg); scale: 100%; } 
+    25% {transform: rotate(-16deg); scale: 105%;} 
+    50% { transform: rotate(-15deg); scale: 100%; } 
+    75% { transform: rotate(-14deg); scale: 105%; } 
+  }
+
 .aboutWindow{
     max-width: 800px;
 }
@@ -125,6 +143,18 @@ body{
 
 @media only screen 
 and (max-device-width: 1000px){
+    .splashtext{
+    transform: rotate(-15deg);
+    color: #ffff00;
+    text-shadow: 2px 2px #5c5c00;
+    z-index: 500;
+    position: absolute;
+    bottom: -40%;
+    right: -10%;
+    width: 50%;
+    animation: splashtextAnimation 2s infinite ease-in-out;
+}
+    
     .aboutWindow{
         min-width: 95%;
     }
