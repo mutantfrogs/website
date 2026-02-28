@@ -3,6 +3,7 @@ import splashes from '../assets/splashtext.json'
 
 export default function Splashtext() {
   const [currentSplash, setCurrentSplash] = useState(null);
+  const [fontsize, setFontsize] = useState(null);
 
   //returns list of splashes available for the current date
   const filterSplashes = () => {
@@ -30,8 +31,13 @@ export default function Splashtext() {
   //pick value from filtered list
   const loadSplash = () => {
     const filteredSplashes = filterSplashes()
-    let index = Math.floor(Math.random() * filteredSplashes.length)
-    setCurrentSplash(filteredSplashes[index].value)
+    const index = Math.floor(Math.random() * filteredSplashes.length)
+
+    const text = filteredSplashes[index].value
+    const size = 40 - text.length * 0.6
+
+    setCurrentSplash(text)
+    setFontsize(size)
   }
 
   useEffect(() => {
@@ -39,7 +45,7 @@ export default function Splashtext() {
   }, [])
 
   return (
-    <h4 className='splashtext' onClick={loadSplash}>
+    <h4 className='splashtext' onClick={loadSplash} style={{fontSize: fontsize}}>
         {currentSplash}
     </h4>
   )
