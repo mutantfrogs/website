@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import galleryData from '../../assets/data/gallery.json'
-import FullscreenImage from './FullscreenImage';
-import goodnightGif from '../../assets/images/goodnight.gif';
+import FullscreenImage from './FullscreenImage'
+import goodnightGif from '../../assets/images/goodnight.gif'
 
 export default function GalleryWindow() {
 
@@ -42,7 +42,15 @@ export default function GalleryWindow() {
             aria-controls="art"
             onClick={() => handleTabClick('art')}
           >
-            drawings
+            artwork
+          </button>
+          <button
+            role="tab"
+            aria-selected={selectedTab === 'games'}
+            aria-controls="games"
+            onClick={() => handleTabClick('games')}
+          >
+            games
           </button>
           <button
             role="tab"
@@ -53,40 +61,55 @@ export default function GalleryWindow() {
             more coming soon!
           </button>
         </menu>
-
+            {/*art tab */}
             <article role="tabpanel" hidden={selectedTab !== 'art'}>
               <h2 className='tabHeader'>2025</h2>
               <hr/>
-              <div id="2025" className='flexContainerRow galleryYear'>
-              {populateArt(2025)}
-              </div>
+                <div id="2025" className='flexContainerRow galleryYear'>
+                {populateArt(2025)}
+                </div>
               <h2 className='tabHeader'>2024</h2>
               <hr/>
-              <div id="2024" className='flexContainerRow galleryYear'>
-              {populateArt(2024)}
-              </div>
+                <div id="2024" className='flexContainerRow galleryYear'>
+                {populateArt(2024)}
+                </div>
               <h2 className='tabHeader'>2023</h2>
               <hr/>
-              <div id="2023" className='flexContainerRow galleryYear'>
-                  {populateArt(2023)}
-              </div>
+                <div id="2023" className='flexContainerRow galleryYear'>
+                    {populateArt(2023)}
+                </div>
               <h2 className='tabHeader'>2022</h2>
               <hr/>
-              <div id="2022" className='flexContainerRow galleryYear'>
-                  {populateArt(2022)}
-              </div>
+                <div id="2022" className='flexContainerRow galleryYear'>
+                    {populateArt(2022)}
+                </div>
               <h2 className='tabHeader'>2021</h2>
               <hr/>
-              <div id="2021" className='flexContainerRow galleryYear'>
-                  {populateArt(2021)}
-              </div>
+                <div id="2021" className='flexContainerRow galleryYear'>
+                    {populateArt(2021)}
+                </div>
               <h2 className='tabHeader'>2020 (and older)</h2>
               <hr/>
-              <div id="2020" className='flexContainerRow galleryYear'>
-                  {populateArt(2020)}
+                <div id="2020" className='flexContainerRow galleryYear'>
+                    {populateArt(2020)}
+                </div>
+            </article>
+
+            {/* More coming soon tab */}
+            <article role="tabpanel" hidden={selectedTab !== 'games'}>
+              <div className='flexContainerRow'>
+                <div className='flexContainerColumn' style={{width: '100%'}}>
+                  <div className='flexContainerColumn' style={{width: '90%'}}>
+                    <h2 className='noMargin'>WEREWOLF</h2>
+                    <h4 style={{color: 'GrayText'}} className='noMargin'>(work in progress)</h4>
+                    <p>move: arrows keys<br/>jump: X<br/>dash: Z<br/>reset: ctrl + r</p>
+                    <iframe className='pico8iframe' src='games/pico8/werewolf/werewolf.html'></iframe>
+                  </div>
+                </div>
               </div>
             </article>
 
+            {/* More coming soon tab */}
             <article role="tabpanel" hidden={selectedTab !== 'more'}>
               <div className='flexContainerRow'>
                 <img src={goodnightGif} className='centeredText'></img>

@@ -6,6 +6,10 @@ body{
     background-image: url('./../assets/background.png');
 }
 
+.noMargin{
+    margin: 0;
+}
+
 .newWindow{
     width: 1000px; 
 }
@@ -257,6 +261,11 @@ and (max-device-width: 1000px){
 
 .galleryArrows:active{
     transform: scale(0.9);
+}
+
+.pico8iframe{
+    width: 100%;
+    aspect-ratio: 1.1/1;
 }
 
 @media only screen 
