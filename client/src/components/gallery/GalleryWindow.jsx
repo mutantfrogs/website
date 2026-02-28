@@ -112,7 +112,7 @@ export default function GalleryWindow() {
             {/* More coming soon tab */}
             <article role="tabpanel" hidden={selectedTab !== 'more'}>
               <div className='flexContainerRow'>
-                <img src={goodnightGif} className='centeredText'></img>
+                <img src={goodnightGif} className='centeredText' style={{width: '90%'}}></img>
               </div>
             </article>
           </section>
