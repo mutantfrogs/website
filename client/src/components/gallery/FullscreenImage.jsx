@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import galleryData from '../../assets/galleryData.json';
-import leftArrow from '../../assets/leftArrow.webp'
-import rightArrow from '../../assets/rightArrow.webp'
+import galleryData from '../../assets/data/gallery.json';
+import leftArrow from '../../assets/images/leftArrow.webp'
+import rightArrow from '../../assets/images/rightArrow.webp'
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
 export default function FullscreenImage({ src, onClose }) {

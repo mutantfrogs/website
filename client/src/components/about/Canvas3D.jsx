@@ -2,11 +2,10 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls } from '@react-three/drei';
 import React, { useRef, useEffect, useState } from 'react';
 import * as THREE from 'three';
-import white8x8 from '../../assets/white8x8.png';
-import face8x8 from '../../assets/face8x8.png';
-import faceAnimated from '../../assets/faceAnimated.png';
+import white8x8 from '../../assets/images/white8x8.png';
+import faceAnimated from '../../assets/images/faceAnimated.png';
 //import qr from '../assets/qr.png';
-import qr from '../../assets/tempQR.png';
+import qr from '../../assets/images/tempQR.png';
 
 
 function Mesh3D() {

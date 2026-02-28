@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-import splashes from '../assets/splashtext.json'
+import splashes from '../assets/data/splashtext.json'
 
 export default function Splashtext() {
   const [currentSplash, setCurrentSplash] = useState(null);

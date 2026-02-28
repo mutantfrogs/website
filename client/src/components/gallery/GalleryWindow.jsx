@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import galleryData from '../../assets/galleryData.json'
+import galleryData from '../../assets/data/gallery.json'
 import FullscreenImage from './FullscreenImage';
-import goodnightGif from '../../assets/goodnight.gif';
+import goodnightGif from '../../assets/images/goodnight.gif';
 
 export default function GalleryWindow() {
 
