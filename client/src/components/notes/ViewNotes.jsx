@@ -17,7 +17,7 @@ export default function ViewNotes() {
         return noteEntries.map((note) => {
             return <div>
                 <img style={{ width: 125, backgroundColor: 'white' }} src={note.img}></img>
-                <p>{note.comment}</p>
+                <p style={{ maxWidth: 125}}>{note.comment}</p>
             </div>
         })
     };
