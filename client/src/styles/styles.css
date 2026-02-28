@@ -96,6 +96,23 @@ body{
     bottom: -10px;
     right: -10px;
     animation: splashtextAnimation 2s infinite ease-in-out;
+    user-select: none;
+}
+
+.splashtext:hover{
+    color: #ffff2e;
+    text-shadow: 2px 2px #8a8a00;
+    scale: 1.05;
+    animation: none;
+    cursor: pointer;
+    word-wrap: break-word;
+}
+
+.splashtext:active{
+    color: #dbdb00;
+    text-shadow: 2px 2px #424200;
+    scale: 0.95;
+    animation: none;
 }
 
 @keyframes splashtextAnimation {
@@ -143,18 +160,6 @@ body{
 
 @media only screen 
 and (max-device-width: 1000px){
-    .splashtext{
-    transform: rotate(-15deg);
-    color: #ffff00;
-    text-shadow: 2px 2px #5c5c00;
-    z-index: 500;
-    position: absolute;
-    bottom: -40%;
-    right: -10%;
-    width: 50%;
-    animation: splashtextAnimation 2s infinite ease-in-out;
-}
-    
     .aboutWindow{
         min-width: 95%;
     }
