@@ -3,7 +3,7 @@ html {
   }
 
 body{
-    background-image: url('./../assets/background.png');
+    background-image: url('./../assets/images/background.png');
 }
 
 .noMargin{
@@ -189,7 +189,7 @@ and (max-device-width: 1000px){
     }
 
     body{
-        background-image: url('./../assets/background.png');
+        background-image: url('./../assets/images/background.png');
     }
 }
 
