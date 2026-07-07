@@ -6,6 +6,7 @@ export default function Header() {
 
   const location = useLocation();
   const [mystery, setMystery] = useState(false);
+  const [mysteryValue, setMysteryValue] = useState(0);
 
   const getBannerText = () => {
     switch (location.pathname) {
@@ -24,8 +25,22 @@ export default function Header() {
     }
   };
 
-  const mysteryClick = () => {
+  const mysteryClick = async () => {
     setMystery(!mystery);
+    setMysteryValue(mysteryValue + 1)
+    var sfx = new Audio('./sounds/weirdroute.mp3')
+
+    //redirct to secret page after X clicks
+    if(mysteryValue == 10){
+      await sfx.play()
+
+      //await the sfx finishing
+      sfx.addEventListener("ended", () => {
+         window.location.href = "/secret/music.html";
+      });
+    }
+    
+    //invert colors
     if (!mystery)
       document.querySelector('html').style.filter = 'invert(100%)';
     else
