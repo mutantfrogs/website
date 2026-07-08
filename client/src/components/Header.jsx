@@ -31,12 +31,12 @@ export default function Header() {
     var sfx = new Audio('./sounds/weirdroute.mp3')
 
     //redirct to secret page after X clicks
-    if(mysteryValue == 10){
+    if(mysteryValue % 10 == 0 && mysteryValue > 0){
       await sfx.play()
 
       //await the sfx finishing
       sfx.addEventListener("ended", () => {
-         window.location.href = "/secret/music.html";
+         window.location.href = "/secret/welcome.html";
       });
     }
     
