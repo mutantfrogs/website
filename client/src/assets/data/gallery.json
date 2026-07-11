@@ -813,5 +813,75 @@
         "thumbURL": "art/2020/thumbnails/watcher.png",
         "year": 2020,
         "nsfw": false 
+    },
+        {
+        "id": "2026.01.XX",
+        "artURL": "art/2026/2026.01.XX.png",
+        "thumbURL": "art/2026/thumbnails/2026.01.XX.png",
+        "year": 2026,
+        "nsfw": false 
+    },
+        {
+        "id": "2026.03.23a",
+        "artURL": "art/2026/2026.03.23a.png",
+        "thumbURL": "art/2026/thumbnails/2026.03.23a.png",
+        "year": 2026,
+        "nsfw": false 
+    },
+        {
+        "id": "2026.03.30",
+        "artURL": "art/2026/2026.03.30.png",
+        "thumbURL": "art/2026/thumbnails/2026.03.30.png",
+        "year": 2026,
+        "nsfw": false 
+    },
+            {
+        "id": "2026.03.31c",
+        "artURL": "art/2026/2026.03.31c.png",
+        "thumbURL": "art/2026/thumbnails/2026.03.31c.png",
+        "year": 2026,
+        "nsfw": false 
+    },
+            {
+        "id": "2026.04.12",
+        "artURL": "art/2026/2026.04.12.png",
+        "thumbURL": "art/2026/thumbnails/2026.04.12.png",
+        "year": 2026,
+        "nsfw": false 
+    },
+            {
+        "id": "2026.04.30",
+        "artURL": "art/2026/2026.04.30.png",
+        "thumbURL": "art/2026/thumbnails/2026.04.30.png",
+        "year": 2026,
+        "nsfw": false 
+    },
+            {
+        "id": "2026.05.02",
+        "artURL": "art/2026/2026.05.02.png",
+        "thumbURL": "art/2026/thumbnails/2026.05.02.png",
+        "year": 2026,
+        "nsfw": false 
+    },
+            {
+        "id": "2026.05.17",
+        "artURL": "art/2026/2026.05.17.png",
+        "thumbURL": "art/2026/thumbnails/2026.05.17.png",
+        "year": 2026,
+        "nsfw": false 
+    },
+            {
+        "id": "2026.05.31",
+        "artURL": "art/2026/2026.05.31.png",
+        "thumbURL": "art/2026/thumbnails/2026.05.31.png",
+        "year": 2026,
+        "nsfw": false 
+    },
+            {
+        "id": "2026.07.05",
+        "artURL": "art/2026/2026.07.05.png",
+        "thumbURL": "art/2026/thumbnails/2026.07.05.png",
+        "year": 2026,
+        "nsfw": false 
     }
 ]
